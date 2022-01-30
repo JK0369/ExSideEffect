@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A27577027A6BF4A003B9E17 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A27576F27A6BF4A003B9E17 /* API.swift */; };
+		4A27577427A6D2F0003B9E17 /* UserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A27577327A6D2F0003B9E17 /* UserState.swift */; };
 		4AAAA3BE27A6BF0C00FB230A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAAA3BD27A6BF0C00FB230A /* AppDelegate.swift */; };
 		4AAAA3C027A6BF0C00FB230A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAAA3BF27A6BF0C00FB230A /* SceneDelegate.swift */; };
 		4AAAA3C227A6BF0C00FB230A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAAA3C127A6BF0C00FB230A /* ViewController.swift */; };
 		4AAAA3C527A6BF0C00FB230A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAAA3C327A6BF0C00FB230A /* Main.storyboard */; };
 		4AAAA3C727A6BF0D00FB230A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAAA3C627A6BF0D00FB230A /* Assets.xcassets */; };
 		4AAAA3CA27A6BF0D00FB230A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAAA3C827A6BF0D00FB230A /* LaunchScreen.storyboard */; };
+		9B3C0BDA01DEB7BED13F0B6F /* Pods_ExSideEffect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB46FDC90D220933EAB1507 /* Pods_ExSideEffect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2832B6EF152D945274D6C124 /* Pods-ExSideEffect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExSideEffect.debug.xcconfig"; path = "Target Support Files/Pods-ExSideEffect/Pods-ExSideEffect.debug.xcconfig"; sourceTree = "<group>"; };
+		4A27576F27A6BF4A003B9E17 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4A27577327A6D2F0003B9E17 /* UserState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserState.swift; sourceTree = "<group>"; };
 		4AAAA3BA27A6BF0C00FB230A /* ExSideEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExSideEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AAAA3BD27A6BF0C00FB230A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AAAA3BF27A6BF0C00FB230A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		4AAAA3C627A6BF0D00FB230A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AAAA3C927A6BF0D00FB230A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AAAA3CB27A6BF0D00FB230A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB46FDC90D220933EAB1507 /* Pods_ExSideEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExSideEffect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7AEE14C5317E8796AE8476 /* Pods-ExSideEffect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExSideEffect.release.xcconfig"; path = "Target Support Files/Pods-ExSideEffect/Pods-ExSideEffect.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3C0BDA01DEB7BED13F0B6F /* Pods_ExSideEffect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		410FC6D68B161AC45D81F805 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EB46FDC90D220933EAB1507 /* Pods_ExSideEffect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4AAAA3B127A6BF0C00FB230A = {
 			isa = PBXGroup;
 			children = (
 				4AAAA3BC27A6BF0C00FB230A /* ExSideEffect */,
 				4AAAA3BB27A6BF0C00FB230A /* Products */,
+				9D50DE79DD0299013CBD5AB4 /* Pods */,
+				410FC6D68B161AC45D81F805 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +78,23 @@
 				4AAAA3BD27A6BF0C00FB230A /* AppDelegate.swift */,
 				4AAAA3BF27A6BF0C00FB230A /* SceneDelegate.swift */,
 				4AAAA3C127A6BF0C00FB230A /* ViewController.swift */,
+				4A27577327A6D2F0003B9E17 /* UserState.swift */,
+				4A27576F27A6BF4A003B9E17 /* API.swift */,
 				4AAAA3C327A6BF0C00FB230A /* Main.storyboard */,
 				4AAAA3C627A6BF0D00FB230A /* Assets.xcassets */,
 				4AAAA3C827A6BF0D00FB230A /* LaunchScreen.storyboard */,
 				4AAAA3CB27A6BF0D00FB230A /* Info.plist */,
 			);
 			path = ExSideEffect;
+			sourceTree = "<group>";
+		};
+		9D50DE79DD0299013CBD5AB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2832B6EF152D945274D6C124 /* Pods-ExSideEffect.debug.xcconfig */,
+				8C7AEE14C5317E8796AE8476 /* Pods-ExSideEffect.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AAAA3CE27A6BF0D00FB230A /* Build configuration list for PBXNativeTarget "ExSideEffect" */;
 			buildPhases = (
+				26B3A9F31998F9FB332E439C /* [CP] Check Pods Manifest.lock */,
 				4AAAA3B627A6BF0C00FB230A /* Sources */,
 				4AAAA3B727A6BF0C00FB230A /* Frameworks */,
 				4AAAA3B827A6BF0C00FB230A /* Resources */,
+				872B058BF911FDCD4358DC87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +165,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26B3A9F31998F9FB332E439C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExSideEffect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		872B058BF911FDCD4358DC87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExSideEffect/Pods-ExSideEffect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExSideEffect/Pods-ExSideEffect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExSideEffect/Pods-ExSideEffect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4AAAA3B627A6BF0C00FB230A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4AAAA3C227A6BF0C00FB230A /* ViewController.swift in Sources */,
+				4A27577427A6D2F0003B9E17 /* UserState.swift in Sources */,
 				4AAAA3BE27A6BF0C00FB230A /* AppDelegate.swift in Sources */,
+				4A27577027A6BF4A003B9E17 /* API.swift in Sources */,
 				4AAAA3C027A6BF0C00FB230A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +360,7 @@
 		};
 		4AAAA3CF27A6BF0D00FB230A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2832B6EF152D945274D6C124 /* Pods-ExSideEffect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +389,7 @@
 		};
 		4AAAA3D027A6BF0D00FB230A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7AEE14C5317E8796AE8476 /* Pods-ExSideEffect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,6 @@
+framework module Pods_ExSideEffect {
+  umbrella header "Pods-ExSideEffect-umbrella.h"
+
+  export *
+  module * { export * }
+}
